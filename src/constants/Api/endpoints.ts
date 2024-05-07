@@ -9,6 +9,6 @@ export const END_POINTS={
     CreatePost:`/api/Post/create`,
     CommentPag:`/api/Comment/pagination`,
     CreateComment:`/api/Comment/create`,
-    domainName:`http://socialapp.somee.com`,
+    domainName:`https://socialapp.somee.com`,
     NotificationHub:`/post-notification`,
 }
