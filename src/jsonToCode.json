@@ -1,0 +1,12 @@
+{
+  "statusCode": 0,
+  "message": "string",
+  "response": {
+    "email": "string",
+    "userName": "string",
+    "firstName": "string",
+    "lastName": "string",
+    "token": "string",
+    "status": 1
+  }
+}
