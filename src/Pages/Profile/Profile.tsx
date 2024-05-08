@@ -46,7 +46,7 @@ const ProfilePage = () => {
     }
     //function to get user info
     const FetchUserInfo = () => {
-        Fetch('http://socialapp.somee.com/api/User/get-current-user');
+        Fetch('https://socialapp.somee.com/api/User/get-current-user');
     }
     // for hidden input file
     const uploadButton = useRef<HTMLInputElement>(null);
@@ -97,7 +97,7 @@ const ProfilePage = () => {
     const onSubmitHandler = async (e: FormEvent) => {
         e.preventDefault();
         handelUploading(true);
-        const url = `https://localhost:7082/api/User/${data?.response?.id}/profile`;
+        const url = `https://socialapp.somee.com/api/User/${data?.response?.id}/profile`;
        
    
         try {
